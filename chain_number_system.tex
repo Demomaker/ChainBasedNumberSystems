@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Chain-Based Number Systems: A Framework for Alternative Mathematical Universes}
+\author{Mike \\ \textit{with conceptual assistance from ChatGPT (OpenAI)}}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper introduces a novel conceptual framework called \textbf{Chain-Based Number Systems (CBNS)}, a way to define alternative sets of numbers and mathematical rules based on chain structures. Rather than assuming a fixed number line or predefined operations, CBNS allows for the creation of custom "chains" of numbers, where values are linked in structured sequences. These chains can exist independently or in multidimensional systems, each with its own rules and behaviors. The goal is to provide a foundation for new kinds of symbolic mathematics, logic, or computational design spaces, enabling definitions of constructs such as $1/0$, $i$, or entirely new numerical objects within defined contexts.
+\end{abstract}
+
+\section{Introduction}
+Mathematics has long evolved through abstraction: from counting to zero, to negative numbers, to imaginary numbers, and beyond. Each step represented a leap where the existing framework failed to answer a question or support an idea. This paper proposes a similar leap: the \textit{Chain-Based Number System (CBNS)}, which generalizes the concept of a number line to chain structures.
+
+\section{Chains and Chain Dimensions}
+A \textbf{chain} is defined as an ordered (possibly cyclic) sequence of values:
+\begin{equation*}
+C = n_0 \rightarrow n_1 \rightarrow n_2 \rightarrow \cdots \rightarrow n_k \rightarrow n_0
+\end{equation*}
+
+Each chain defines a closed or open space of operation. A value has meaning only relative to its chain and potentially its position within the chain. Chains can exist in multiple dimensions:
+\begin{itemize}
+    \item \textbf{1D Chain:} Linear or cyclic chain of numbers.
+    \item \textbf{2D Chain Space:} A set of interacting chains.
+    \item \textbf{nD Chain Dimensions:} Chains embedded in higher-dimensional relationships.
+\end{itemize}
+
+\section{Contextual Arithmetic}
+Traditional operations (e.g., $+$, $-$, $\times$, $\div$) are not universally assumed. Each chain defines its own operations. For example, in chain $C_1$:
+\begin{equation*}
+1 \rightarrow 4 \rightarrow 6 \rightarrow 8 \rightarrow 1
+\end{equation*}
+We could define an operation $\oplus$ such that:
+\begin{equation*}
+1 \oplus 1 = 4,\quad 4 \oplus 1 = 6,\quad 8 \oplus 1 = 1
+\end{equation*}
+
+\section{Undefined or Special Values}
+The system provides a place to house traditionally undefined constructs. For example:
+\begin{itemize}
+    \item $\frac{1}{0}$ can be placed in a separate chain $C_{\infty}$.
+    \item $i = \sqrt{-1}$ can be treated as a symbolic value in a looped or orthogonal chain.
+\end{itemize}
+
+\section{Examples of Chain-Based Number Systems}
+
+To illustrate the flexibility of CBNS, consider the following example chains and their custom operations.
+
+\subsection{Example 1: A Cyclic Chain with Special Values}
+
+Define a chain:
+\[
+C_{\text{special}} = \{1, \pi, i, \tfrac{1}{0}, \infty\}
+\]
+arranged cyclically as:
+\[
+1 \rightarrow \pi \rightarrow i \rightarrow \tfrac{1}{0} \rightarrow \infty \rightarrow 1
+\]
+
+We can define a custom operation \(\oplus\) on this chain that "moves" a value to the next in the cycle, such that:
+\[
+x \oplus 1 = \text{next value in } C_{\text{special}}
+\]
+
+For example:
+\[
+1 \oplus 1 = \pi, \quad \pi \oplus 1 = i, \quad \infty \oplus 1 = 1
+\]
+
+This models an arithmetic where adding "1" is interpreted as "move to the next special number," rather than traditional addition.
+
+\subsection{Example 2: Defining a Chain with Real Numbers and Custom Addition}
+
+Consider a linear chain of real values with an added "infinity" point:
+\[
+C_{\mathbb{R}^*} = \{ \dots, -2, -1, 0, 1, 2, \dots, \infty \}
+\]
+
+Operations can be defined contextually:
+
+\begin{itemize}
+  \item Normal addition applies when both operands are finite numbers.
+  \item Adding any finite number to \(\infty\) results in \(\infty\).
+  \item \(\infty \oplus \infty = \infty\).
+\end{itemize}
+
+This chain thus encodes extended real numbers with an explicit infinity symbol, making the concept of infinity an integrated element rather than an external symbol.
+
+\subsection{Example 3: Chains with Logical or State Transitions}
+
+Chains need not be numerical in the classical sense. For instance, a finite state machine with states:
+\[
+S = \{\text{Start}, \text{Processing}, \text{Error}, \text{End}\}
+\]
+forms a chain (or graph) where transitions represent operations:
+\[
+\text{Start} \xrightarrow{a} \text{Processing} \xrightarrow{b} \text{Error} \xrightarrow{c} \text{End} \xrightarrow{d} \text{Start}
+\]
+
+Here, "operations" represent state transitions rather than arithmetic, showing how CBNS generalizes number systems to symbolic or computational spaces.
+
+\section{Applications and Future Work}
+CBNS may find relevance in:
+\begin{itemize}
+    \item Symbolic computation
+    \item Finite state machines
+    \item Artificial intelligence
+    \item Alternative logics
+    \item Visual or interactive mathematics
+\end{itemize}
+
+Future research may formalize mappings between chains, transitions, and potential bridges between CBNS and classical number systems.
+
+\section{Conclusion}
+CBNS opens the door to redefining what a number system is. It allows the creation of finite or infinite symbolic spaces where operations, values, and relationships are entirely defined by the creator. This framework does not aim to replace existing mathematics but to offer a playground for exploration, creativity, and potentially paradigm-shifting ideas.
+
+\section*{Acknowledgments}
+This work was developed with conceptual assistance from ChatGPT, an AI language model by OpenAI.
+
+\section*{License}
+This work is released under the CC0 1.0 Universal Public Domain Dedication.
+
+\end{document}
