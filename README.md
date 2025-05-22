@@ -17,5 +17,5 @@ The full PDF of the paper is in this repo: [chain_number_system.pdf](chain_numbe
 This project is under [CC0 1.0 Universal](LICENSE) — public domain dedication.
 
 ## 🧠 Author
-Mike – 2025  
+Mike Bédard – 2025  
 Inspired by mathematical abstraction and curiosity.
